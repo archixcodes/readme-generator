@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8" />
+        <title>README Generator</title>
+        <link rel="stylesheet"
+        href="style.css"/>
+    </head>
+    <body>
+        <h1>📝 README Generator</h1>
+
+        <form id="readmeForm">
+            <input type="text" placeholder="Your Name" id="name" required /> <br />
+            <input type="text" placeholder="Project Title" id="project" required /> <br />
+            <input type="text" placeholder="Github Link" id="github" required /> <br />
+            <textarea placeholder="Short Project Description" id="description"></textarea><br />
+            <input type="text" placeholder="Tech Stack (HTML, CSS, Python, Javascript)" id="tech" /> <br />
+            <button type="submit">Generate README</button>
+        </form>
+
+        <h2>📄 Your README Preview:</h2>
+        <pre id="output"></pre>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
